@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebShop</title>
+    <link rel="stylesheet" href="styles/style.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Refil your Coffee Stock</h1>
+        <h2>Buy latest Lavazza Espresso</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Lavazza_-_logo_%28Italy%2C_1995%29.svg/512px-Lavazza_-_logo_%28Italy%2C_1995%29.svg.png?20170302010411"
+            alt="LavazzaPic"><br>
+        <img src="img/coffee-cup-tea-svgrepo-com.svg" alt="CoffeeCup" width="300" loading="eager">
+    </header>
+    <main>
+        <section>
+            <article class="shoparticle">
+                <h2>Choose Your Coffee:</h2>
+                <table>
+                    <thead>
+                        <th scope="col"><img src="img/Espresso Barista Perfetto Beans.avif" alt="EsspresoBaristaPefettoBeans"
+                                width="300">Espresso Barista Perfetto Beans</th>
+                        <th scope="col"><img src="img/Espresso Italiano Aromatico Beans.avif" alt="EspressoItalianoAromaticoBeans"
+                                width="300">Espresso Italiano Aromatico Beans</th>
+                        <th scope="col"><img src="img/Espresso Italiano Cremoso Beans.avif" alt="EspressoItalianoCremosoBeans"
+                                width="300">Espresso Italiano Cremoso Beans</th>
+                        <th scope="col"><img src="img/Espresso Maestro Beans.avif" alt="EspressoMaestroBeans" width="300">Espresso
+                            Maestro Beans</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Intensity 6/10</td>
+                            <td>Intensity 7/10</td>
+                            <td>Intensity 8/10</td>
+                            <td>Intensity 9/10</td>
+                        </tr>
+                        <tr>
+                            <td>$18.99</td>
+                            <td>$20.99</td>
+                            <td><del>$22.99</del><ins>$17.99</ins></td>
+                            <td>$24.99</td>
+                        </tr>
+                    </tbody>
+                </table><br><br>
+                <form action="" method="post">
+                    <fieldset>
+                        <fieldset>
+                            <legend>Enter Customer Information</legend>
+                            <label for="firstnameshop">First Name:</label>
+                            <input type="text" id="firstnameshop" required>
+                            <label for="lastnameshop">Last Name:</label>
+                            <input type="text" id="lastnameshop" required>
+                            <label for="mobilephoneshop">Mobile Phone:</label>
+                            <input type="tel" id="mobilephoneshop" required maxlength="15">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Enter Order Information</legend>
+                            <label for="chooseyourcoffee">Choose your coffee:</label>
+                            <select name="Chooseyourcoffee" id="chooseyourcoffee">
+                                <option value="" disabled selected>---</option>
+                                <option value="PerfettoBeans">Espresso Barista Perfetto Beans</option>
+                                <option value="ItalianoAromaticoBeans">Espresso Italiano Aromatico Beans</option>
+                                <option value="ItalianoCremosoBeans">Espresso Italiano Cremoso Beans</option>
+                                <option value="MaestroBeans">Maestro Beans</option>
+                            </select>
+                            <input type="radio" id="package1/2" name="Package" value="PackageValue" required>
+                            <label for="package1/2">0.5kg Package</label>
+                            <input type="radio" id="package1" name="Package" value="PackageValue" required>
+                            <label for="package1">1kg Package</label><br><br>
+                            <label for="quantity">Choose Quantity:</label>
+                            <input type="value" id="quantity" name="Quantity" required>
+                        </fieldset>
+                        <button type="submit">Submit and Pay</button>
+                        <button type="reset">Reset</button>
+                        <img src="img/mastercard.svg" alt="mastercardicon" width="40" loading="eager">
+                        <img src="img/visa.svg" alt="visaicon" width="40" loading="eager">
+                    </fieldset>
+                </form>
+                <h2>Thank you for shopping with us!</h2>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <a href=""><img src="img/go-to top.svg" alt="Gototop" width="60" loading="eager" title="Go to Top"></a>
+        <a href="index.html"><img src="img/home-button.svg" alt="HomePage" loading="eager" width="60"
+                title="Go to Home Page"></a>
+        <a href="about.html"><img src="img/about-us.svg" alt="AboutUs" loading="eager" width="60"
+                title="Go to About Page"></a>
+        <a href="contact.html"><img src="img/contact-us.svg" alt="ContactUs" loading="eager" width="60"
+                title="Contact Us"></a><br>
+        <p><small>All rights reserved. MOC 2024 &copy;&reg;</small></p>
+    </footer>
+</body>
+
+</html>

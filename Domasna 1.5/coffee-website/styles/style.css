@@ -1,0 +1,139 @@
+@font-face {
+    font-family: Notable;
+    src: url(../fonts/Notable/Notable-Regular.ttf);
+    font-style: normal    
+}
+
+@font-face {
+    font-family: Dynalight;
+    src: url(../fonts/Dynalight/Dynalight-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Dancing-Script;
+    src: url(../fonts/Dancing-Script/DancingScript-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(../fonts/Fraunces/static/Fraunces_144pt-Regular.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Fraunces;
+    src: url(../fonts/Fraunces/static/Fraunces_144pt-Bold.ttf);
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-2/static/Exo2-Medium.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+    background-image: url(../img/background-drink-coffee-design-illustration-free-vector.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    margin: 20%;margin-top: 10%;
+}
+
+h1 {
+    font-family: Notable;
+    font-size: xx-large;
+}
+
+q {
+    font-family: Dynalight;
+    font-weight: normal;
+    font-style: normal;
+    font-size: x-large;
+}
+
+h2,h3,h4 {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+p {
+    font-family: Fraunces;
+    font-style: normal;
+    font-weight: bold;
+}
+
+blockquote {
+    font-family: Dancing-Script;
+    font-style: normal;
+    font-weight: normal;
+    font-size: larger;
+    text-align: right;
+}
+
+cite {
+    font-weight: bold;
+    
+}
+
+dt {
+    font-family: Dynalight;
+    font-weight: normal;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+dd {
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+
+a:hover {
+    color: rgb(105, 62, 41);
+}
+
+a:focus {
+    background-color: darkolivegreen;
+}
+
+ol,ul {
+    text-align: left;
+}
+
+::selection {
+    color: rgb(255, 255, 255);
+    background: darkolivegreen;
+}
+
+li {
+    font-family: Exo;
+    font-size: large;
+    font-weight: bold;
+    text-align: left;
+    color: aliceblue;
+}
+
+table , form {
+    font-family: Exo;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.vlatko {
+    color: brown;
+}
